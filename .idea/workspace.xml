@@ -1,12 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4aed1625-5c56-4671-be19-3c2f9bb68b28" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aRWtrh3lDNbmDMLwFjzJhNgY9x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aed1625-5c56-4671-be19-3c2f9bb68b28" name="默认更改列表" comment="" />
+      <created>1586699103735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586699103735</updated>
+      <workItem from="1586699105459" duration="266000" />
+    </task>
+    <task id="LOCAL-00001" summary="可视化数据综合样本初始化">
+      <created>1586699212143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586699212143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="可视化数据综合样本初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="可视化数据综合样本初始化" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="399" y="12" key="CommitChangelistDialog2" timestamp="1586699194314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586699194314" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1586699363994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586699363994" />
+    <state x="442" y="214" key="git4idea.merge.GitPullDialog" timestamp="1586699431094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="214" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1586699431094" />
   </component>
 </project>
