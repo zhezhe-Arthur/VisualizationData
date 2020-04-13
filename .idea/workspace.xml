@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aed1625-5c56-4671-be19-3c2f9bb68b28" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="4aed1625-5c56-4671-be19-3c2f9bb68b28" name="默认更改列表" comment="页面布局">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -35,7 +41,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586699103735</updated>
-      <workItem from="1586699105459" duration="266000" />
+      <workItem from="1586699105459" duration="1597000" />
+      <workItem from="1586785940109" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="可视化数据综合样本初始化">
       <created>1586699212143</created>
@@ -44,7 +51,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586699212143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="可视化数据综合样本初始化">
+      <created>1586699636650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586699636650</updated>
+    </task>
+    <task id="LOCAL-00003" summary="页面布局">
+      <created>1586786492059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586786492059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,17 +73,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="可视化数据综合样本初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="可视化数据综合样本初始化" />
+    <MESSAGE value="页面布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面布局" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="399" y="12" key="CommitChangelistDialog2" timestamp="1586699194314">
+    <state x="89" y="2" key="CommitChangelistDialog2" timestamp="1586786649720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="399" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586699194314" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1586699363994">
+    <state x="89" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586786649720" />
+    <state x="147" y="67" key="DiffContextDialog" timestamp="1586702130467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586699363994" />
+    <state x="147" y="67" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586702130467" />
+    <state x="96" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586786632419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="96" y="74" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586786632419" />
     <state x="442" y="214" key="git4idea.merge.GitPullDialog" timestamp="1586699431094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
