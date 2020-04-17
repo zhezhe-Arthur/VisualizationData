@@ -103,3 +103,6 @@ header>.showTime{
   font-size: .625rem;
   font-weight: 400;
 }
+.panel .chart {
+  height: 8.95rem;
+}
