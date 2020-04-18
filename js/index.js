@@ -74,3 +74,98 @@
     myChart.resize()
   })
 })();
+(function(){
+  var myColor = ['#1089E7', '#F57474', '#56D0E3', '#F8B448', '#8B78F6']
+  let myChart = echarts.init(document.querySelector('.itBar .chart'))
+  option = {
+    grid: {
+      top: '10%',
+      left: '22%',
+      bottom: '10%',
+      containLabel: false
+    },
+    xAxis: {
+      // 不显示
+      show: false
+    },
+    yAxis: [
+      {
+        type: 'category',
+        data: [ '一号车间', '二号车间', '三号车间', '四号车间', '五号车间'],
+        // 是否反向坐标
+        inverse: true,
+        axisLine: {
+          show: false
+        },
+        // 刻度
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          color: '#fff'
+        },
+      },
+      {
+        data: [ '435', '756', '567', '78', '978'],
+        // 是否反向坐标
+        inverse: true,
+        axisLine: {
+          show: false
+        },
+        // 刻度
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          color: '#fff'
+        },
+      }
+    ],
+    series: [
+      {
+        name: '2011年',
+        type: 'bar',
+        data: [23, 65, 45, 36, 75],
+        itemStyle: {
+          barBorderRadius: 20,
+          color: function(params) {
+            return myColor[params.dataIndex]
+          }
+        },
+        // 层叠
+        yAxisIndex: 0,
+        // 间距
+        barCategoryGap: 50,
+        // 宽度
+        barWidth: 10,
+        // 柱子里的文字
+        label: {
+          formatter: "{c}%",
+          show: true,
+          position: 'inside'
+        }
+      },
+      {
+        name: '2012年',
+        type: 'bar',
+        data: [100, 100, 100, 100, 100],
+        barCategoryGap: 50,
+        // 宽度
+        barWidth: 15,
+        // 层叠
+        yAxisIndex: 1,
+        itemStyle: {
+          color: 'none',
+          borderWidth: 3,
+          borderColor: '#00c1de',
+          barBorderRadius: 15,
+        }
+      }
+    ]
+  };
+  myChart.setOption(option);
+  // 图表大小自适应
+  window.addEventListener('resize', function() {
+    myChart.resize()
+  })
+})()

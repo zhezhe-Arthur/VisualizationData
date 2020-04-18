@@ -16,7 +16,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -42,7 +41,10 @@
       <option name="presentableId" value="Default" />
       <updated>1586699103735</updated>
       <workItem from="1586699105459" duration="1597000" />
-      <workItem from="1586785940109" duration="577000" />
+      <workItem from="1586785940109" duration="847000" />
+      <workItem from="1586786913274" duration="88000" />
+      <workItem from="1586879264714" duration="145000" />
+      <workItem from="1587135538712" duration="533000" />
     </task>
     <task id="LOCAL-00001" summary="可视化数据综合样本初始化">
       <created>1586699212143</created>
@@ -65,30 +67,53 @@
       <option name="project" value="LOCAL" />
       <updated>1586786492059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="页面布局">
+      <created>1586786664866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586786664866</updated>
+    </task>
+    <task id="LOCAL-00005" summary="echarts配置解析">
+      <created>1586879337636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586879337636</updated>
+    </task>
+    <task id="LOCAL-00006" summary="基础柱状图">
+      <created>1587135625247</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587135625247</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="可视化数据综合样本初始化" />
     <MESSAGE value="页面布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面布局" />
+    <MESSAGE value="echarts配置解析" />
+    <MESSAGE value="基础柱状图" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础柱状图" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="89" y="2" key="CommitChangelistDialog2" timestamp="1586786649720">
+    <state x="89" y="0" key="CommitChangelistDialog2" timestamp="1587135609392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="89" y="2" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586786649720" />
+    <state x="89" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587135609392" />
     <state x="147" y="67" key="DiffContextDialog" timestamp="1586702130467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="67" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586702130467" />
-    <state x="96" y="74" key="Vcs.Push.Dialog.v2" timestamp="1586786632419">
+    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2" timestamp="1587135632927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="96" y="74" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586786632419" />
+    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587135632927" />
     <state x="442" y="214" key="git4idea.merge.GitPullDialog" timestamp="1586699431094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
