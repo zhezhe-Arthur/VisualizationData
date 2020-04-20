@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4aed1625-5c56-4671-be19-3c2f9bb68b28" name="默认更改列表" comment="页面布局">
+    <list default="true" id="4aed1625-5c56-4671-be19-3c2f9bb68b28" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
       <workItem from="1586786913274" duration="88000" />
       <workItem from="1586879264714" duration="145000" />
       <workItem from="1587135538712" duration="533000" />
+      <workItem from="1587225785998" duration="526000" />
     </task>
     <task id="LOCAL-00001" summary="可视化数据综合样本初始化">
       <created>1586699212143</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587135625247</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bar2">
+      <created>1587226115208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587226115208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,21 +107,22 @@
     <MESSAGE value="页面布局" />
     <MESSAGE value="echarts配置解析" />
     <MESSAGE value="基础柱状图" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础柱状图" />
+    <MESSAGE value="bar2" />
+    <option name="LAST_COMMIT_MESSAGE" value="bar2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="89" y="0" key="CommitChangelistDialog2" timestamp="1587135609392">
+    <state x="89" y="0" key="CommitChangelistDialog2" timestamp="1587226099419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="89" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587135609392" />
+    <state x="89" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587226099419" />
     <state x="147" y="67" key="DiffContextDialog" timestamp="1586702130467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="67" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586702130467" />
-    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2" timestamp="1587135632927">
+    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2" timestamp="1587226199720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587135632927" />
+    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587226199720" />
     <state x="442" y="214" key="git4idea.merge.GitPullDialog" timestamp="1586699431094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

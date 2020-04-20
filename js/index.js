@@ -6,7 +6,7 @@
       trigger: 'axis',
       axisPointer: {            // 坐标轴指示器，坐标轴触发有效
         type: 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-    }
+      }
     },
     grid: {
       left: '0%',
@@ -78,6 +78,19 @@
   var myColor = ['#1089E7', '#F57474', '#56D0E3', '#F8B448', '#8B78F6']
   let myChart = echarts.init(document.querySelector('.itBar .chart'))
   option = {
+    tooltip: {
+      // formatter: "{a}：{c}%",
+      formatter: function(params) {
+        console.log(params)      
+      },  
+      trigger: 'axis',
+      axisPointer: {
+        type: 'cross',
+        label: {
+          backgroundColor: '#283b56'
+        }
+      }
+    },
     grid: {
       top: '10%',
       left: '22%',
@@ -123,7 +136,7 @@
     ],
     series: [
       {
-        name: '2011年',
+        name: '合格率',
         type: 'bar',
         data: [23, 65, 45, 36, 75],
         itemStyle: {
@@ -146,7 +159,7 @@
         }
       },
       {
-        name: '2012年',
+        name: '',
         type: 'bar',
         data: [100, 100, 100, 100, 100],
         barCategoryGap: 50,
@@ -162,6 +175,82 @@
         }
       }
     ]
+  };
+  myChart.setOption(option);
+  // 图表大小自适应
+  window.addEventListener('resize', function() {
+    myChart.resize()
+  })
+})();
+(function() {
+  let myChart = echarts.init(document.querySelector('.line .chart'))
+  option = {
+    color: ['#00f3f1', '#ed3f35'],
+    tooltip: {
+        trigger: 'axis'
+    },
+    legend: {
+        textStyle: {
+          color: '#4c9bfd',
+        },
+        right: '10%'
+    },
+    grid: {
+      top: '20%',
+      left: '3%',
+      right: '4%',
+      bottom: '3%',
+      show: true, // 边框显示
+      borderColor: '#012f4a', // 颜色
+      containLabel: true // 刻度值
+    },
+    toolbox: {
+        feature: {
+            saveAsImage: {}
+        }
+    },
+    xAxis: {
+      type: 'category',
+      boundaryGap: false, // 去除轴间距
+      data: ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '十月', '十一月', '十二月'],
+      axisTick: {
+        show: false
+      },
+      axisLabel: {
+        color: '#4c9bfd'
+      },
+      axisLine: {
+        show: false // 去除轴线
+      }
+    },
+    yAxis: {
+      type: 'value',
+      boundaryGap: false, // 去除轴间距
+      axisTick: {
+        show: false
+      },
+      axisLabel: {
+        color: '#4c9bfd'
+      },
+      axisLine: {
+        show: false // 去除轴线
+      }
+    },
+    series: [
+      {
+        name: '任务',
+        type: 'line',
+        smooth: true, // 圆滑
+        data: [128, 132, 141, 134, 140, 430, 210, 51, 321, 324, 54, 79]
+      },
+      {
+        name: '计划任务',
+        type: 'line',
+        smooth: true,
+        data: [220, 100, 143, 234, 420, 330, 310, 77, 232, 56, 123, 90]
+      }
+    ]
+    
   };
   myChart.setOption(option);
   // 图表大小自适应
