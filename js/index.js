@@ -190,10 +190,10 @@
         trigger: 'axis'
     },
     legend: {
-        textStyle: {
-          color: '#4c9bfd',
-        },
-        right: '10%'
+      textStyle: {
+        color: '#4c9bfd',
+      },
+      right: '10%'
     },
     grid: {
       top: '20%',
@@ -251,6 +251,173 @@
       }
     ]
     
+  };
+  myChart.setOption(option);
+  // 图表大小自适应
+  window.addEventListener('resize', function() {
+    myChart.resize()
+  })
+})();
+(function() {
+  let myChart = echarts.init(document.querySelector('.itLine .chart'))
+  option = {
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'cross',
+        label: {
+          backgroundColor: '#6a7985'
+        }
+      }
+    },
+    legend: {
+      top: '0%',
+      textStyle: {
+        color: 'rgba(255,255,255,.5)',
+        fontSize: '12'
+      },
+      right: '10%'
+    },
+    grid: {
+      left: '10',
+      top: '30',
+      right: '10',
+      bottom: '10',
+      containLabel: true
+    },
+    xAxis: [
+      {
+        type: 'category',
+        boundaryGap: false,
+        data: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
+        // 刻度标签
+        axisTick: {
+          show: false
+        },
+        axisLabel: {
+          color: '#4c9bfd',
+          textStyle: {
+            color: 'rgba(255,255,255,.6)',
+            fontSize: 12
+          }
+        },
+        axisLine: {
+          show: false // 去除轴线
+        }
+      }
+    ],
+    yAxis: [
+      {
+        type: 'value',
+        axisLabel: {
+          color: '#4c9bfd',
+          textStyle: {
+            color: 'rgba(255,255,255,.6)',
+            fontSize: 12
+          }
+        },
+        axisTick: {
+          show: false
+        },
+        axisLine: {
+          show: false // 去除轴线
+        },
+        splitLine: {
+          lineStyle: {
+            color: 'rgba(255,255,255,.1)'
+          }
+        }
+      }
+    ],
+    series: [
+      {
+        name: '1车间',
+        type: 'line',
+        smooth: true, // 圆滑
+        lineStyle: {
+          color: '#0184d5',
+          width: 2
+        },
+        // 填充区域
+        areaStyle: {
+          color: new echarts.graphic.LinearGradient(
+            0,
+            0,
+            0,
+            1,
+            [
+              {
+                offset: 0,
+                color: "rgba(1, 132, 213, 0.9)"
+              },
+              {
+                offset: 0.8,
+                color: "rgba(1, 132, 213, 0.9)"
+              }
+            ],
+            false
+          ),
+          shadowColor: "rgba(0, 0, 0, 0.1)" // 阴影
+        },
+        // 拐点设置
+        symbol: "circle",
+        symbolSize: 6,
+        showSymbol: false,
+        // 拐点样式
+        itemStyle: {
+          normal: {
+            color: "#0184d5",
+            borderColor: "rgba(221, 220, 107, .1)",
+            borderWidth: 12
+          }
+        },
+        data: [248, 345, 297, 334, 275, 184, 322]
+      },
+      {
+        name: "2车间",
+        type: "line",
+        smooth: true,
+        symbol: "circle",
+        symbolSize: 5,
+        showSymbol: false,
+        lineStyle: {
+          normal: {
+            color: "#00d887",
+            width: 2
+          }
+        },
+        areaStyle: {
+          normal: {
+            color: new echarts.graphic.LinearGradient(
+              0,
+              0,
+              0,
+              1,
+              [
+                {
+                  offset: 0,
+                  color: "rgba(0, 216, 135, 0.4)"
+                },
+                {
+                  offset: 0.8,
+                  color: "rgba(0, 216, 135, 0.1)"
+                }
+              ],
+              false
+            ),
+            shadowColor: "rgba(0, 0, 0, 0.1)"
+          }
+        },
+        itemStyle: {
+          normal: {
+            color: "#00d887",
+            borderColor: "rgba(221, 220, 107, .1)",
+            borderWidth: 12
+          }
+        },
+        data: [213, 145, 277, 378, 230, 482, 223]
+      }
+    ]
   };
   myChart.setOption(option);
   // 图表大小自适应
