@@ -43,7 +43,7 @@
   <section class="mainbox">
     <div class="column">
       <div class="panel bar">
-        <h2>本月任务报表数据</h2>
+        <h2>任务报表数据</h2>
         <div class="chart"></div>
         <div class="panel-footer"></div>
       </div>
@@ -52,13 +52,36 @@
         <div class="chart"></div>
         <div class="panel-footer"></div>
       </div>
-      <div class="panel">
+      <div class="panel per">
         <h2>本月任务报表数据</h2>
         <div class="chart"></div>
         <div class="panel-footer"></div>
       </div>
     </div>
-    <div class="column">2</div>
+    <div class="column">
+      <!-- no模块制作 -->
+      <div class="no">
+        <div class="no-hd">
+          <ul>
+            <li>453214</li>
+            <li>320534</li>
+          </ul>
+        </div>
+        <div class="no-bd">
+          <ul>
+            <li>任务总量</li>
+            <li>合格任务</li>
+          </ul>
+        </div>
+      </div>
+      <!-- 地图模块 -->
+      <div class="map">
+        <div class="map1"></div>
+        <div class="map2"></div>
+        <div class="map3"></div>
+        <div class="chart"></div>
+      </div>
+    </div>
     <div class="column">
       <div class="panel itBar">
         <h2>本月各车间任务合格率</h2>
@@ -70,8 +93,8 @@
         <div class="chart"></div>
         <div class="panel-footer"></div>
       </div>
-      <div class="panel">
-        <h2>本月任务报表数据</h2>
+      <div class="panel itpie">
+        <h2>地区任务量报表</h2>
         <div class="chart"></div>
         <div class="panel-footer"></div>
       </div>
@@ -80,5 +103,8 @@
 </body>
 <script src="js/flexible.js"></script>
 <script src="js/echarts.min.js"></script>
+<!-- 先引入jquery -->
+<script src="js/jquery.js"></script>
+<script src="js/china.js"></script>
 <script src="js/index.js"></script>
 </html>
