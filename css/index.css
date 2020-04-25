@@ -24,11 +24,11 @@ header h1{
   line-height: 1.85rem 
 }
 header .showTime{
-  position: relative;
+  position: absolute;
+  top: 0;
   right: 0;
   font-size: .525rem;
   color: #fff;
-  top: -1.25rem;
   line-height: 1.5rem
 }
 .mainbox {
@@ -237,7 +237,7 @@ header .showTime{
   }
 }
 /* 约束屏幕尺寸 */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   html {
     font-size: 42px !important;
   }
@@ -246,4 +246,4 @@ header .showTime{
   html {
     font-size: 80px !important;
   }
-}
+} */
