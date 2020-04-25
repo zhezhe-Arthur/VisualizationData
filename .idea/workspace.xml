@@ -48,6 +48,7 @@
       <workItem from="1587567764560" duration="701000" />
       <workItem from="1587785678602" duration="58000" />
       <workItem from="1587785881616" duration="869000" />
+      <workItem from="1587787785663" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="可视化数据综合样本初始化">
       <created>1586699212143</created>
@@ -126,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587786600689</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="css 调整">
+      <created>1587787831931</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587787831931</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,18 +153,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="css 调整" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="89" y="0" key="CommitChangelistDialog2" timestamp="1587786585437">
+    <state x="89" y="0" key="CommitChangelistDialog2" timestamp="1587787815030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="89" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587786585437" />
+    <state x="89" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587787815030" />
     <state x="147" y="67" key="DiffContextDialog" timestamp="1586702130467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="67" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1586702130467" />
-    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2" timestamp="1587786617726">
+    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2" timestamp="1587787839014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587786617726" />
+    <state x="458" y="66" width="814" height="514" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587787839014" />
     <state x="442" y="214" key="git4idea.merge.GitPullDialog" timestamp="1586699431094">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
